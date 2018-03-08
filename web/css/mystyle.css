@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    font-size: 40px;
+    color: white;
+}
+
+h3, li {
+  text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  max-width:100%;
+  height: auto;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.cap-letter {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.img-center {
+  margin: 0 auto;
+  max-width: 100%;
+  display: block;
+}
+
+.content {
+  width: 500px;
+  max-width:100%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.main {
+  background-image: url("../images/Link_Forest.jpg");
+}
+
+.bio {
+  /* width: 500px; */
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 0.65em;
+}

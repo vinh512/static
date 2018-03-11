@@ -5,50 +5,90 @@ body {
 }
 
 h3, li {
-  text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 h2 {
-  text-align: center;
+
+    text-align: center;
+
 }
 
+h2 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h2:before, h2:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
 img {
-  max-width:100%;
-  height: auto;
+    max-width:100%;
+    height: auto;
+}
+
+.outer {
+    background-color: red;
+}
+
+.inner {
+    background-color: blue;
 }
 
 
 a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .cap-letter {
-  text-transform: uppercase;
-  font-size: 1.5em;
+    text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 .img-center {
-  margin: 0 auto;
-  max-width: 100%;
-  display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
 }
 
 .content {
-  width: 500px;
-  max-width:100%;
-  height: auto;
-  margin-left: 5%;
+    width: 500px;
+    max-width:100%;
+    height: auto;
+    margin-left: 5%;
 }
 
 .main {
-  background-image: url("../images/Link_Forest.jpg");
+    background-image: url("../images/Link_Forest.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bio {
-  /* width: 500px; */
-  width: 50%;
-  margin: 0 auto;
-  text-align: justify;
-  font-size: 0.65em;
+    /* width: 500px; */
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 0.65em;
 }
